@@ -1,0 +1,58 @@
+body{
+    width: 80%;
+    background-image: url("bulletinmedia/plantspgbg.png"); 
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+.plant1{
+    position: absolute; 
+    top: 190px; 
+    left: 40px;
+}
+
+.plant2{
+    position: absolute; 
+    top: 190px; 
+    left: 120px;
+}
+
+.plant3{
+    position: absolute; 
+    top: 190px; 
+    left: 200px;
+}
+
+
+.plant4{
+    position: absolute; 
+    top: 190px; 
+    left: 280px;
+}
+
+.plant5{
+    position: absolute; 
+    top: 287px; 
+    left: 40px;
+}
+
+
+.plant6{
+    position: absolute; 
+    top: 287px; 
+    left: 120px;
+}
+
+.plant7{
+    position: absolute; 
+    top: 287px; 
+    left: 200px;
+}
+
+.plant8{
+    position: absolute; 
+    top: 287px; 
+    left: 280px;
+}
+

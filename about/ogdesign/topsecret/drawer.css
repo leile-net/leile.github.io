@@ -1,0 +1,19 @@
+.foldertext {
+    position: relative;
+}
+
+.folderandtext{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+body{
+  width: 100%;
+  white-space: nowrap;
+}
+
+.folder{
+   position: relative;
+}

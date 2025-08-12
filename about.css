@@ -1,0 +1,15 @@
+body{
+    width: 80%;
+    background-image: url("bulletinmedia/aboutpgbg.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+.updatessticky{
+    position:relative;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+}
+

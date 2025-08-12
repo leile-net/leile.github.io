@@ -1,0 +1,22 @@
+.tomorrowis{
+    position: fixed;
+    left: 137px;
+    top: 50px;
+}
+
+
+#thedate_html {
+    text-align:center;
+    margin-left:-30px;
+    margin-top:80px;
+    font-size:60px;
+}
+
+#gifImage.hidden {
+    display: none;
+}
+
+.hidden {
+    display: none;
+    
+} 

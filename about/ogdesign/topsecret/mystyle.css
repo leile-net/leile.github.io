@@ -1,0 +1,98 @@
+html{
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: black;
+    margin-left:0.6%;
+    margin-right:0.6%;
+    margin-bottom:0.6%;
+    margin-top:0.4%;
+}
+
+/* unvisited link */
+.linked:link{
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: black;
+    text-decoration: none;
+}
+/* visited link */
+.linked:visited{
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: black;
+    text-decoration: none;
+
+}
+
+/* unvisited FOLDER */
+.folder:link{
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: black;
+    text-decoration: none;
+}
+/* visited FOLDER */
+.folder:visited{
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: black;
+    text-decoration: none;
+
+}
+
+/* mouse over link */
+.linked:hover::after {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: black;
+    content: "   <-";
+}
+
+/* secret links */ 
+.unlinked {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: black;
+    text-decoration: none;
+}
+.unlinked:link {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: black;
+    text-decoration: none;
+}
+.unlinked:visited{
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: black;
+    text-decoration: none;
+}
+.unlinked:hover::after {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: black;
+}
+
+/* date updated */
+.dateupdated{
+    position: fixed;
+    bottom:10px;
+    right:10px;
+}
+
+.whatdayisittext{
+    position: fixed;
+    right: 193px;
+    top:90px;
+}
+
+.findouttheday_button{
+  position: fixed;
+  right: 125px;
+  top: 130px;
+  border: 1px solid black;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius:5px;
+  transition-duration: 0.2s;
+}
+
+.findouttheday_button:hover{
+    background-color: lightgrey;
+}

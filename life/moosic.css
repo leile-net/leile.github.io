@@ -1,0 +1,42 @@
+.recentreceipt{
+    border-color: rgb(122 57 93);
+    border: 2.5px solid rgb(122 57 93); 
+    padding:1px;
+}
+.moosictext{
+    position:absolute;
+    left: 502px;
+    color: rgb(122 57 93);
+}
+
+.songs{
+    display:inline-block;
+    border-color: rgb(122 57 93);
+    border: 2.5px solid rgb(122 57 93); 
+    padding:1px;
+    
+}
+
+.songs:hover{
+    border: 3.5px solid rgb(122 57 93); 
+}
+/* LINKING STUFF */
+/* unvisited link */
+.moosiclinked:link{
+    color: rgb(122 57 93);
+    text-decoration: none;
+}
+/* visited link */
+.moosiclinked:visited{
+    font-family: "pixel2";
+    color: rgb(122 57 93);    
+    text-decoration: none;
+
+}
+/* mouse over link */
+.moosiclinked:hover::after {
+    font-family: "pixel2";
+    src: "Jersey15-Regular.ttf";     
+    color: rgb(122 57 93);
+    content: "   <-";
+}

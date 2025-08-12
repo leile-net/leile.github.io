@@ -1,0 +1,46 @@
+
+.bulletinsign{
+    position:absolute;
+    text-align: center;
+    display: inline-block;
+}
+
+.bulletinsign:hover{
+    font-family: "pixel";
+    src: "Jersey15-Regular.ttf";
+    color: black;
+    transform: rotate(3deg);
+    display: inline-block;
+}
+
+.bulletinsign:hover .bulletinsign_text{
+    opacity:1;
+    visibility:visible;
+}
+
+
+.bulletinsign_text{
+    border-color:black;
+    border-width: 1px;
+    border-style:solid;
+    background-color: white; 
+    border-radius:5px;
+    padding-left:10px;
+    padding-right:10px;
+    display:inline-block;
+    visibility:hidden;
+    color:black;
+}
+
+
+@font-face{
+    font-family: "pixel";
+    src: url("Jersey15-Regular.ttf");
+    size-adjust: 150%;
+    color:black;
+
+}
+
+
+
+

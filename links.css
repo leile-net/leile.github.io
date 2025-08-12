@@ -1,0 +1,21 @@
+
+body{
+    width:80%;
+    background-image: url("bulletinmedia/linkspgsky.png");
+    background-repeat: no-repeat;
+    background-size:cover; 
+    
+}
+
+
+.linksign{
+    position:absolute;
+    text-align: center;
+    display: inline-block;
+}
+
+.linksign:hover{
+    color: black;
+    transform: scale(1.017);
+    display: inline-block;
+}

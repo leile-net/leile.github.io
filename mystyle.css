@@ -1,0 +1,162 @@
+html{
+    /*font-family: "Lucida Console", "Courier New", monospace;*/
+    font-family: "pixel2";
+    color: black;
+    margin-left:0.6%;
+    margin-right:0.6%;
+    margin-bottom:0.6%;
+    margin-top:0.4%;
+}
+
+.homebulletin{
+    position: absolute;
+    left: 30px;
+    width: 100;
+    height: auto;
+    top:-20px;
+    z-index:-1;
+}
+
+
+.homebulletinsmall{
+    position: absolute;
+    left: 110px;
+    width: 100;
+    height: auto;
+    top:50px;
+    z-index:-1;
+}
+
+@font-face{
+    font-family: "pixel";
+    src: url("Jersey15-Regular.ttf");
+    size-adjust: 100%;
+}
+
+@font-face{
+    font-family: "pixel2";
+    src: url("pixel2.ttf");
+    size-adjust: 150%;
+    font-weight: bold;
+}
+
+
+
+/* unvisited link */
+.linked:link{
+    color: black;
+    text-decoration: none;
+}
+/* visited link */
+.linked:visited{
+    font-family: "pixel2";
+    color: black;
+    text-decoration: none;
+
+}
+/* mouse over link */
+.linked:hover::after {
+    font-family: "pixel2";
+    src: "Jersey15-Regular.ttf";     
+    color: black;
+    content: "   <-";
+}
+
+/* secret links */ 
+.unlinked {
+    font-family: "pixel2";
+    color: black;
+    text-decoration: none;
+}
+.unlinked:link {
+    font-family: "pixel2";
+    color: black;
+    text-decoration: none;
+}
+.unlinked:visited{
+    font-family: "pixel2";
+    color: black;
+    text-decoration: none;
+}
+.unlinked:hover::after {
+    font-family: "pixel2";
+    src: "Jersey15-Regular.ttf"; 
+    color: black;
+}
+
+/* date updated */
+.dateupdated{
+    position: fixed;
+    bottom:10px;
+    right:10px;
+}
+
+.whatdayisittext{
+    position: fixed;
+    right: 193px;
+    top:90px;
+}
+
+.findouttheday_button{
+  position: fixed;
+  right: 125px;
+  top: 130px;
+  border: 1px solid black;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.hidden {
+    display: none;
+}
+
+.whatdayisittext{
+    position: fixed;
+    right: 193px;
+    top:90px;
+}
+
+.findouttheday_button{
+  position: fixed;
+  right: 125px;
+  top: 130px;
+  border: 2px solid black;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius:5px;
+  transition-duration: 0.2s;
+}
+
+.findouttheday_button:hover{
+    background-color: lightgrey;
+}
+
+#statuscafe {
+    padding: .5em;
+    border: 0px ;
+    width: 148px;
+    font-size:10px;
+    word-wrap: break-word;
+    color:purple;
+
+}
+#statuscafe-username {
+    margin-bottom: .5em;
+    text-decoration:none;
+    color:purple;
+}
+#statuscafe-content {
+    margin: 0 1em 0.5em 1em;
+    color:purple;
+}

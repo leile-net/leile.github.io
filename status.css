@@ -1,0 +1,39 @@
+/*nav bar */
+nav {
+	font-family: 'Azeret Mono', monospace;
+}
+
+
+/*main body styling*/
+body {
+	background-image: url("https://pathtoimagefile.png");
+	background-repeat: repeat;
+	font-family: 'Azeret Mono', monospace;
+    color: rgb(180, 146, 214);
+    font-size:13px;
+}
+
+a {
+	color: rgb(120, 68, 171);
+}
+a:visited {
+	color: rgb(120, 68, 171);
+}
+a:hover {
+  text-decoration: none;
+}
+
+/*H2 is used for the username and "statuses" heading*/
+h2 {
+ 	color:rgb(240, 134, 166);
+
+}
+
+div.status-username {
+    border-style:solid;
+    border-color: rgb(240, 134, 166);
+    padding:5px;
+    border-width:2px;
+
+}
+

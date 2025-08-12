@@ -1,0 +1,35 @@
+.recentskypic{
+    border-color: rgb(70 100 156);
+    border: 2.5px solid rgb(70 100 156); 
+    padding:1px;
+}
+.skytext{
+    position:absolute;
+    left: 530px;
+    color: rgb(70 100 156);
+}
+
+.allskytext{
+    color: rgb(70 100 156);
+}
+
+/* LINKING STUFF */
+/* unvisited link */
+.skylinked:link{
+    color: rgb(70 100 156);
+    text-decoration: none;
+}
+/* visited link */
+.skylinked:visited{
+    font-family: "pixel2";
+    color: rgb(70 100 156);    
+    text-decoration: none;
+
+}
+/* mouse over link */
+.skylinked:hover::after {
+    font-family: "pixel2";
+    src: "Jersey15-Regular.ttf";     
+    color: rgb(70 100 156);
+    content: "   <-";
+}

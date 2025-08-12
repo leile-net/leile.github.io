@@ -1,0 +1,29 @@
+.updateimg{
+    border: 2.5px solid rgb(76 47 109); 
+    padding:1px;
+}
+.updatetext{
+ 
+    color: rgb(76 47 109);
+}
+
+/* LINKING STUFF */
+/* unvisited link */
+.updatelinked:link{
+    color: rgb(76 47 109);
+    text-decoration: none;
+}
+/* visited link */
+.updatelinked:visited{
+    font-family: "pixel2";
+    color:rgb(76 47 109);    
+    text-decoration: none;
+
+}
+/* mouse over link */
+.updatelinked:hover::after {
+    font-family: "pixel2";
+    src: "Jersey15-Regular.ttf";     
+    color:rgb(76 47 109);
+    content: "   <-";
+}
