@@ -148,15 +148,20 @@ html{
     width: 148px;
     font-size:10px;
     word-wrap: break-word;
-    color:purple;
-
+    color:rgb(120, 68, 171)
 }
 #statuscafe-username {
     margin-bottom: .5em;
-    text-decoration:none;
-    color:purple;
+    text-decoration: none;
+    color:rgb(120, 68, 171)
+}
+
+#statuscafe-username:link {
+    margin-bottom: .5em;
+    text-decoration: none;
+    color:rgb(120, 68, 171)
 }
 #statuscafe-content {
     margin: 0 1em 0.5em 1em;
-    color:purple;
+    color:rgb(120, 68, 171)
 }
