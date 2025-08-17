@@ -13,3 +13,7 @@ body{
     display: inline-block;
 }
 
+.button {
+  text-decoration: underline;
+  cursor: pointer;
+}
