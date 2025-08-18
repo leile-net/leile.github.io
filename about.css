@@ -6,13 +6,12 @@ body{
     
 }
 
-.updatessticky{
+.sticky{
     position:absolute;
     height: auto;
     text-align: center;
     display: inline-block;
-    top: 500px;
-    left: 800px;
+   
 }
 
 .button {
