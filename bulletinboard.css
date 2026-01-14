@@ -18,6 +18,35 @@
     visibility:visible;
 }
 
+.randompgbtn_down {
+    display: none;
+}
+
+.randompg-wrapper:hover .randompgbtn {
+    display: none;
+}
+
+.randompg-wrapper:hover .randompgbtn_down {
+    display: block;
+}
+
+.randompg-wrapper:hover .label {
+    top:22px;
+}
+
+.label {
+    position: absolute;
+    left: 40px;
+    top: 17px;
+    font-size: 10px;
+    text-align: center;
+    color: rgb(148, 120, 31);
+    max-width: 64%;
+}
+
+
+
+
 
 .bulletinsign_text{
     border-color:black;

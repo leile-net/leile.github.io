@@ -31,14 +31,41 @@ last updated: 6/15/25
  UPDATE THE DATE UPDATED HERE-->
 </div>
  
-<!-- WELCOME SIGN -->
+<div> <!-- RANDOM PAGE BUTTON -->
+
+<div class="randompg-wrapper" style="position:absolute; left:20px; top:20px;">
+    <div class="randompgbtn_down" onclick = "randompg()" style = "position: absolute;top: 3px;">
+        <img src="bulletinmedia/randompagebutton_down2.png" style="max-width:200px;">
+        <div class="label">go to a random page!</div>
+    </div>
+
+    <div class="randompgbtn">
+        <img src="bulletinmedia/randompagebutton_up.png" style="max-width:200px;">
+        <div class="label">go to a random page!</div>
+    </div>
+</div>
+
+<script>
+    function randompg() {
+        const pgs = ["about.html", "links.html",
+            "about/siteupdates.html",
+            "life/sky.html", "life/moosic.html", "life/allmoosic.html", "life/allsky.html", "life/updates.html", "life/allupdates.html"
+        ]
+        window.location.href = pgs[Math.floor(Math.random() * (pgs.length-2))];
+
+    }
+ </script>
+</div>
+
+
+<div> <!-- WELCOME SIGN -->
 <div style = "position: absolute; left: 465px;top:40px;">
     <a style = "text-decoration: none; ">
         <img src = "bulletinmedia/bulletinwelcome.png" >
         <div style = "position: absolute; left: 140px;bottom: 30px;font-size: 20px; color:rgb(160, 74, 129)">HOME :)</div>
     </a>
 </div>
-
+</div>
 
 <div> <!--BULLETIN BOARD STARTS HERE -->
 <div class = "homebulletinsmall">
@@ -152,6 +179,17 @@ last updated: 6/15/25
 <p style = "position: absolute; left: 268px;top:155px; font-size:10px; color: rgb(112, 69, 147)">STATUS</p>
 </div>
 
+<!--
+<div>  INV SIGN
+<div class = "bulletinsign" style = "left: 70px;top:480px;" >
+    <a href = "inventory.html" style = "text-decoration: none;">
+        <img src = "bulletinmedia/bulletininv.png" style = "min-width:300px;">
+        <div class = "bulletinsign_text" style ="position: absolute; left: 80px; top: 110px; font-size:20px;">inventory</div>
+    </a>
+</div>
+
+</div>
+-->
 
 <div> <!-- MADELEINE HERE + TOP SECRET HERE-->
 <div style= "padding-right:50px;">
