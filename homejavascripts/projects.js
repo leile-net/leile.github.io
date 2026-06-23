@@ -9,15 +9,22 @@ class project{
 }
 
 // EXISTING PROJECTS
-var allprojects = ["siteproject", "dieinaholeproject", "dosmthappproject"]
+var allprojects = ["siteproject", "dieinaholeproject", "dosmthappproject", "sqworlproject"]
+
 const siteproject = new project("this site", "my personal website :>", "you're already here!", "siteproject")
+
 const dieinaholeproject = new project("die in a hole", 
     "do you ever feel like dying in a hole? then this is the website for you!", 
-    "go to <a href = 'https://leile-net.github.io/dieinahole.github.io/' style = 'color= black;'>this link</a>", 
+    "go to <a href = 'https://leile-net.github.io/dieinahole.github.io/' target = '_blank'style = 'color= black;'>this link</a>", 
     "dieinaholeproject")
 const dosmthappproject = new project ("do something app", "an app that randomly gives you something to do (it's actually basically just a spinner), i think this only works for mac", 
     "1. go to <a href = 'https://drive.google.com/file/d/140YvRFbS4Pg5RbtA77IW3AHw8z_0jlHE/view?usp=sharing' style = 'color = black;'>this link</a> and download the dmg file <br> 2. open the dmg file and drag the app to your applications folder <br> 3. run this command in terminal: xattr -cr /Applications/dosmthapp.app"
     ,"dosmthappproject")
+
+const sqworlproject = new project ("sqworl", "makes a sound when the camera detects a squirrel, seems to only work on desktop for some reason :|", 
+    "go to <a href = 'https://leile-net.github.io/sqworl/' target = '_blank' style = 'color= black;'>this link</a>"
+    ,"sqworlproject")
+
 
 // EXISTING PROJECTS
 
