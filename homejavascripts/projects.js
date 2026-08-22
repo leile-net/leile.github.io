@@ -9,7 +9,7 @@ class project{
 }
 
 // EXISTING PROJECTS
-var allprojects = ["siteproject", "dieinaholeproject", "dosmthappproject", "sqworlproject"]
+var allprojects = ["siteproject", "dieinaholeproject", "dosmthappproject", "sqworlproject", "tierlistappproject"]
 
 const siteproject = new project("this site", "my personal website :>", "you're already here!", "siteproject")
 
@@ -24,6 +24,10 @@ const dosmthappproject = new project ("do something app", "an app that randomly 
 const sqworlproject = new project ("sqworl", "makes a sound when the camera detects a squirrel, seems to only work on desktop for some reason :|", 
     "go to <a href = 'https://leile-net.github.io/sqworl/' target = '_blank' style = 'color= black;'>this link</a>"
     ,"sqworlproject")
+
+const tierlistappproject = new project ("tierlist app", "an app that lets you make tierlists & add your own commentary, only works for mac", 
+    "1. go to <a href = 'https://drive.google.com/file/d/13GwAG58NMcvzNgBOXMmh1gBHdoQB8Xbo/view?usp=sharing' style = 'color = black;'>this link</a> and download the zip file <br> 2. unzip the file and drag the app to your applications folder <br> 3. run this command in terminal: xattr -cr /Applications/tierlistapp.app"
+    ,"tierlistappproject")
 
 
 // EXISTING PROJECTS
